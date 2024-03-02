@@ -1,0 +1,63 @@
+11:48:05.554 [main] INFO  TestCases.TC_01_homePage - ***loaded successfully***
+11:48:05.779 [main] INFO  TestCases.TC_01_homePage - ***TC_01_homePage started***
+11:49:15.540 [main] INFO  TestCases.TC_01_homePage - location is selected
+11:49:16.264 [main] INFO  TestCases.TC_01_homePage - locality is selected
+11:49:48.510 [main] INFO  TestCases.TC_01_homePage - speciality is selected
+11:49:48.852 [main] INFO  TestCases.TC_01_homePage - ****TC_02_Doctor_Detail started****
+11:49:55.207 [main] INFO  TestCases.TC_01_homePage - filter for patient story is selected 
+11:50:22.536 [main] INFO  TestCases.TC_01_homePage - filter for doctor experience is selected
+11:50:54.434 [main] INFO  TestCases.TC_01_homePage - filter for fees and availablity is selected
+11:50:54.913 [main] INFO  TestCases.TC_01_homePage - sort by is clicked
+11:51:31.259 [main] INFO  TestCases.TC_01_homePage - results are sorted
+11:51:42.192 [main] INFO  TestCases.TC_01_homePage - page is scroll down
+11:51:46.143 [main] INFO  TestCases.TC_01_homePage - list of top 5 doctor's name is printed
+11:51:47.364 [main] INFO  TestCases.TC_01_homePage - list of top 5 doctor's experience is printed
+11:51:48.501 [main] INFO  TestCases.TC_01_homePage - list of top 5 doctor's clinic is printed
+11:51:49.449 [main] INFO  TestCases.TC_01_homePage - list of top 5 doctor's clinic location is printed
+11:51:50.348 [main] INFO  TestCases.TC_01_homePage - list of top 5 doctor's consultation fee is printed
+11:51:50.699 [main] INFO  TestCases.TC_01_homePage - ***TC_03_surgeryPage started***
+11:52:01.083 [main] INFO  TestCases.TC_01_homePage - page is scrolled
+11:52:06.136 [main] INFO  TestCases.TC_01_homePage - surgery list is displayed
+11:52:06.643 [main] INFO  TestCases.TC_01_homePage - ***TC_04_CorporateWellness***
+11:52:47.732 [main] INFO  TestCases.TC_01_homePage - details entered
+11:52:48.524 [main] INFO  TestCases.TC_01_homePage - orgniztion size is selected
+11:52:49.839 [main] INFO  TestCases.TC_01_homePage - submit button is clicked
+11:52:54.614 [main] INFO  TestCases.TC_01_homePage - orgniztion size is selected
+11:53:19.565 [main] INFO  TestCases.TC_01_homePage - submit button is clicked
+11:53:21.226 [main] INFO  TestCases.TC_01_homePage - all windows are closed
+11:54:33.450 [main] INFO  StepDefinations.Hooks -  Testing in chrome___
+11:55:02.732 [main] INFO  StepDefinations.Hooks - ***TC_01_homePage started***
+11:55:31.741 [main] INFO  StepDefinations.Hooks - location is selected
+11:55:32.576 [main] INFO  StepDefinations.Hooks - locality is selected
+11:55:45.340 [main] INFO  StepDefinations.Hooks - speciality is selected
+11:55:51.906 [main] INFO  StepDefinations.Hooks - filter for patient story is selected 
+11:55:58.122 [main] INFO  StepDefinations.Hooks - filter for doctor experience is selected
+11:56:09.437 [main] INFO  StepDefinations.Hooks - filter for fees and availablity is selected
+11:56:29.912 [main] INFO  StepDefinations.Hooks - sort by is clicked
+11:56:49.292 [main] INFO  StepDefinations.Hooks - results are sorted
+11:56:59.890 [main] INFO  StepDefinations.Hooks - page is scroll down
+11:57:03.696 [main] INFO  StepDefinations.Hooks - list of top 5 doctor's name is printed
+11:57:04.860 [main] INFO  StepDefinations.Hooks - list of top 5 doctor's experience is printed
+11:57:06.021 [main] INFO  StepDefinations.Hooks - list of top 5 doctor's clinic is printed
+11:57:07.140 [main] INFO  StepDefinations.Hooks - list of top 5 doctor's clinic location is printed
+11:57:08.832 [main] INFO  StepDefinations.Hooks - list of top 5 doctor's consultation fee is printed
+11:57:16.904 [main] INFO  StepDefinations.Hooks - surger link is clicked
+11:57:18.071 [main] INFO  StepDefinations.Hooks - page is scrolled
+11:57:26.660 [main] INFO  StepDefinations.Hooks - surgery list is displayed
+11:58:06.063 [main] INFO  StepDefinations.Hooks - CorporateWellness is clicked
+11:58:07.856 [main] INFO  StepDefinations.Hooks - details entered
+11:58:09.133 [main] INFO  StepDefinations.Hooks - orgniztion size is selected
+11:58:10.064 [main] INFO  StepDefinations.Hooks - submit button is clicked
+11:58:15.182 [main] INFO  StepDefinations.Hooks - orgniztion size is selected
+11:58:32.617 [main] INFO  StepDefinations.Hooks - submit button is clicked
+12:46:51.569 [main] INFO  TestCases.TC_01_homePage - ***loaded successfully***
+12:46:51.916 [main] INFO  TestCases.TC_01_homePage - ***TC_01_homePage started***
+12:47:00.233 [main] INFO  TestCases.TC_01_homePage - ***loaded successfully***
+12:47:00.508 [main] INFO  TestCases.TC_01_homePage - ***TC_01_homePage started***
+12:47:16.646 [main] INFO  TestCases.TC_01_homePage - location is selected
+12:47:17.503 [main] INFO  TestCases.TC_01_homePage - locality is selected
+12:47:27.907 [main] INFO  TestCases.TC_01_homePage - location is selected
+12:47:28.007 [main] INFO  TestCases.TC_01_homePage - speciality is selected
+12:47:29.406 [main] INFO  TestCases.TC_01_homePage - all windows are closed
+12:47:29.939 [main] INFO  TestCases.TC_01_homePage - locality is selected
+12:47:35.476 [main] INFO  TestCases.TC_01_homePage - all windows are closed

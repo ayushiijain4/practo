@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="ExcelUtils.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="os" value="windows"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="TestCases.TC_03_surgeryPage">
+        <methods>
+          <include name="Get_surgery_list"/>
+          <include name="Click_On_surgery"/>
+          <include name="pageScroll"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.TC_03_surgeryPage -->
+      <class name="TestCases.TC_01_homePage">
+        <methods>
+          <include name="Search_For_Doctor"/>
+          <include name="Select_Area"/>
+          <include name="Select_doctor"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="Select_Location"/>
+        </methods>
+      </class> <!-- TestCases.TC_01_homePage -->
+      <class name="TestCases.TC_04_CorporateWellness">
+        <methods>
+          <include name="organization_size_and_Interest"/>
+          <include name="clear"/>
+          <include name="detailsInvalid"/>
+          <include name="sizeOfOrganizationAndInterest"/>
+          <include name="corporateLink"/>
+          <include name="SubmitButton"/>
+          <include name="detailsValid"/>
+          <include name="setUp"/>
+          <include name="SubmitButton1"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.TC_04_CorporateWellness -->
+      <class name="TestCases.TC_02_Doctor_Detail">
+        <methods>
+          <include name="getDoctorExperience"/>
+          <include name="selectExperience"/>
+          <include name="click"/>
+          <include name="scrollDown"/>
+          <include name="selectFilter"/>
+          <include name="tearDown"/>
+          <include name="select_patientStory"/>
+          <include name="selectRelevance"/>
+          <include name="getConsultationFee"/>
+          <include name="getClinicName"/>
+          <include name="setUp"/>
+          <include name="getDoctorName"/>
+          <include name="clickSort"/>
+          <include name="getPracticeLocality"/>
+        </methods>
+      </class> <!-- TestCases.TC_02_Doctor_Detail -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

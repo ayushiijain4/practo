@@ -1,0 +1,54 @@
+23:09:50.116 [main] INFO  TestCases.TC_01_homePage - ***loaded successfully***
+23:09:50.402 [main] INFO  TestCases.TC_01_homePage - ***TC_01_homePage started***
+23:09:55.330 [main] INFO  TestCases.TC_01_homePage - location is selected
+23:09:56.608 [main] INFO  TestCases.TC_01_homePage - locality is selected
+23:10:09.035 [main] INFO  TestCases.TC_01_homePage - speciality is selected
+23:10:09.597 [main] INFO  TestCases.TC_01_homePage - ****TC_02_Doctor_Detail started****
+23:10:15.899 [main] INFO  TestCases.TC_01_homePage - filter for patient story is selected 
+23:10:22.846 [main] INFO  TestCases.TC_01_homePage - filter for doctor experience is selected
+23:10:34.259 [main] INFO  TestCases.TC_01_homePage - filter for fees and availablity is selected
+23:10:34.831 [main] INFO  TestCases.TC_01_homePage - sort by is clicked
+23:10:47.728 [main] INFO  TestCases.TC_01_homePage - results are sorted
+23:10:59.336 [main] INFO  TestCases.TC_01_homePage - page is scroll down
+23:11:04.604 [main] INFO  TestCases.TC_01_homePage - list of top 5 doctor's name is printed
+23:11:06.024 [main] INFO  TestCases.TC_01_homePage - list of top 5 doctor's experience is printed
+23:11:07.376 [main] INFO  TestCases.TC_01_homePage - list of top 5 doctor's clinic is printed
+23:11:08.630 [main] INFO  TestCases.TC_01_homePage - list of top 5 doctor's clinic location is printed
+23:11:09.908 [main] INFO  TestCases.TC_01_homePage - list of top 5 doctor's consultation fee is printed
+23:11:10.360 [main] INFO  TestCases.TC_01_homePage - ***TC_03_surgeryPage started***
+23:11:18.074 [main] INFO  TestCases.TC_01_homePage - page is scrolled
+23:11:23.942 [main] INFO  TestCases.TC_01_homePage - surgery list is displayed
+23:11:24.451 [main] INFO  TestCases.TC_01_homePage - ***TC_04_CorporateWellness***
+23:11:32.914 [main] INFO  TestCases.TC_01_homePage - details entered
+23:11:34.469 [main] INFO  TestCases.TC_01_homePage - orgniztion size is selected
+23:11:36.823 [main] INFO  TestCases.TC_01_homePage - submit button is clicked
+23:11:44.005 [main] INFO  TestCases.TC_01_homePage - orgniztion size is selected
+23:12:00.486 [main] INFO  TestCases.TC_01_homePage - submit button is clicked
+23:12:02.965 [main] INFO  TestCases.TC_01_homePage - all windows are closed
+23:13:56.401 [main] INFO  TestCases.TC_01_homePage - ***loaded successfully***
+23:13:56.676 [main] INFO  TestCases.TC_01_homePage - ***TC_01_homePage started***
+23:14:03.122 [main] INFO  TestCases.TC_01_homePage - location is selected
+23:14:04.130 [main] INFO  TestCases.TC_01_homePage - locality is selected
+23:14:16.661 [main] INFO  TestCases.TC_01_homePage - speciality is selected
+23:14:17.225 [main] INFO  TestCases.TC_01_homePage - ****TC_02_Doctor_Detail started****
+23:14:23.763 [main] INFO  TestCases.TC_01_homePage - filter for patient story is selected 
+23:14:30.353 [main] INFO  TestCases.TC_01_homePage - filter for doctor experience is selected
+23:14:42.001 [main] INFO  TestCases.TC_01_homePage - filter for fees and availablity is selected
+23:14:43.152 [main] INFO  TestCases.TC_01_homePage - sort by is clicked
+23:14:56.306 [main] INFO  TestCases.TC_01_homePage - results are sorted
+23:15:07.526 [main] INFO  TestCases.TC_01_homePage - page is scroll down
+23:15:11.642 [main] INFO  TestCases.TC_01_homePage - list of top 5 doctor's name is printed
+23:15:12.751 [main] INFO  TestCases.TC_01_homePage - list of top 5 doctor's experience is printed
+23:15:14.027 [main] INFO  TestCases.TC_01_homePage - list of top 5 doctor's clinic is printed
+23:15:15.750 [main] INFO  TestCases.TC_01_homePage - list of top 5 doctor's clinic location is printed
+23:15:17.655 [main] INFO  TestCases.TC_01_homePage - list of top 5 doctor's consultation fee is printed
+23:15:18.175 [main] INFO  TestCases.TC_01_homePage - ***TC_03_surgeryPage started***
+23:15:25.624 [main] INFO  TestCases.TC_01_homePage - page is scrolled
+23:15:32.406 [main] INFO  TestCases.TC_01_homePage - surgery list is displayed
+23:15:32.923 [main] INFO  TestCases.TC_01_homePage - ***TC_04_CorporateWellness***
+23:15:41.554 [main] INFO  TestCases.TC_01_homePage - details entered
+23:15:43.419 [main] INFO  TestCases.TC_01_homePage - orgniztion size is selected
+23:15:45.888 [main] INFO  TestCases.TC_01_homePage - submit button is clicked
+23:15:53.103 [main] INFO  TestCases.TC_01_homePage - orgniztion size is selected
+23:16:09.545 [main] INFO  TestCases.TC_01_homePage - submit button is clicked
+23:16:11.654 [main] INFO  TestCases.TC_01_homePage - all windows are closed

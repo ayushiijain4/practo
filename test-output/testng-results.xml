@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="27" passed="27" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-02T23:13:37 IST" name="Suite" finished-at="2024-03-02T23:16:11 IST" duration-ms="154081">
+    <groups>
+    </groups>
+    <test started-at="2024-03-02T23:13:37 IST" name="Test" finished-at="2024-03-02T23:16:11 IST" duration-ms="154081">
+      <class name="TestCases.TC_02_Doctor_Detail">
+        <test-method signature="click()[pri:1, instance:TestCases.TC_02_Doctor_Detail@4988d8b8]" started-at="2024-03-02T23:14:17 IST" name="click" finished-at="2024-03-02T23:14:17 IST" duration-ms="327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click -->
+        <test-method signature="select_patientStory()[pri:2, instance:TestCases.TC_02_Doctor_Detail@4988d8b8]" started-at="2024-03-02T23:14:18 IST" name="select_patientStory" finished-at="2024-03-02T23:14:23 IST" duration-ms="5534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_patientStory -->
+        <test-method signature="selectExperience()[pri:3, instance:TestCases.TC_02_Doctor_Detail@4988d8b8]" started-at="2024-03-02T23:14:24 IST" name="selectExperience" finished-at="2024-03-02T23:14:30 IST" duration-ms="6079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectExperience -->
+        <test-method signature="selectFilter()[pri:4, instance:TestCases.TC_02_Doctor_Detail@4988d8b8]" started-at="2024-03-02T23:14:30 IST" name="selectFilter" finished-at="2024-03-02T23:14:42 IST" duration-ms="11148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFilter -->
+        <test-method signature="clickSort()[pri:5, instance:TestCases.TC_02_Doctor_Detail@4988d8b8]" started-at="2024-03-02T23:14:42 IST" name="clickSort" finished-at="2024-03-02T23:14:43 IST" duration-ms="289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSort -->
+        <test-method signature="selectRelevance()[pri:6, instance:TestCases.TC_02_Doctor_Detail@4988d8b8]" started-at="2024-03-02T23:14:43 IST" name="selectRelevance" finished-at="2024-03-02T23:14:56 IST" duration-ms="12569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectRelevance -->
+        <test-method signature="scrollDown()[pri:7, instance:TestCases.TC_02_Doctor_Detail@4988d8b8]" started-at="2024-03-02T23:14:56 IST" name="scrollDown" finished-at="2024-03-02T23:15:07 IST" duration-ms="10817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollDown -->
+        <test-method signature="getDoctorName()[pri:8, instance:TestCases.TC_02_Doctor_Detail@4988d8b8]" started-at="2024-03-02T23:15:07 IST" name="getDoctorName" finished-at="2024-03-02T23:15:11 IST" duration-ms="3689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDoctorName -->
+        <test-method signature="getDoctorExperience()[pri:9, instance:TestCases.TC_02_Doctor_Detail@4988d8b8]" started-at="2024-03-02T23:15:12 IST" name="getDoctorExperience" finished-at="2024-03-02T23:15:12 IST" duration-ms="726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDoctorExperience -->
+        <test-method signature="getClinicName()[pri:10, instance:TestCases.TC_02_Doctor_Detail@4988d8b8]" started-at="2024-03-02T23:15:13 IST" name="getClinicName" finished-at="2024-03-02T23:15:14 IST" duration-ms="858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getClinicName -->
+        <test-method signature="getPracticeLocality()[pri:11, instance:TestCases.TC_02_Doctor_Detail@4988d8b8]" started-at="2024-03-02T23:15:14 IST" name="getPracticeLocality" finished-at="2024-03-02T23:15:15 IST" duration-ms="1226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPracticeLocality -->
+        <test-method signature="getConsultationFee()[pri:12, instance:TestCases.TC_02_Doctor_Detail@4988d8b8]" started-at="2024-03-02T23:15:16 IST" name="getConsultationFee" finished-at="2024-03-02T23:15:17 IST" duration-ms="1385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getConsultationFee -->
+      </class> <!-- TestCases.TC_02_Doctor_Detail -->
+      <class name="TestCases.TC_04_CorporateWellness">
+        <test-method signature="corporateLink()[pri:1, instance:TestCases.TC_04_CorporateWellness@305b7c14]" started-at="2024-03-02T23:15:32 IST" name="corporateLink" finished-at="2024-03-02T23:15:38 IST" duration-ms="5199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- corporateLink -->
+        <test-method signature="detailsInvalid()[pri:2, instance:TestCases.TC_04_CorporateWellness@305b7c14]" started-at="2024-03-02T23:15:38 IST" name="detailsInvalid" finished-at="2024-03-02T23:15:41 IST" duration-ms="2700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detailsInvalid -->
+        <test-method signature="sizeOfOrganizationAndInterest()[pri:3, instance:TestCases.TC_04_CorporateWellness@305b7c14]" started-at="2024-03-02T23:15:42 IST" name="sizeOfOrganizationAndInterest" finished-at="2024-03-02T23:15:44 IST" duration-ms="1846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sizeOfOrganizationAndInterest -->
+        <test-method signature="SubmitButton()[pri:4, instance:TestCases.TC_04_CorporateWellness@305b7c14]" started-at="2024-03-02T23:15:45 IST" name="SubmitButton" finished-at="2024-03-02T23:15:45 IST" duration-ms="875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitButton -->
+        <test-method signature="clear()[pri:5, instance:TestCases.TC_04_CorporateWellness@305b7c14]" started-at="2024-03-02T23:15:46 IST" name="clear" finished-at="2024-03-02T23:15:49 IST" duration-ms="2796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clear -->
+        <test-method signature="detailsValid()[pri:6, instance:TestCases.TC_04_CorporateWellness@305b7c14]" started-at="2024-03-02T23:15:50 IST" name="detailsValid" finished-at="2024-03-02T23:15:52 IST" duration-ms="2018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detailsValid -->
+        <test-method signature="organization_size_and_Interest()[pri:7, instance:TestCases.TC_04_CorporateWellness@305b7c14]" started-at="2024-03-02T23:15:52 IST" name="organization_size_and_Interest" finished-at="2024-03-02T23:15:53 IST" duration-ms="466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- organization_size_and_Interest -->
+        <test-method signature="SubmitButton1()[pri:8, instance:TestCases.TC_04_CorporateWellness@305b7c14]" started-at="2024-03-02T23:15:53 IST" name="SubmitButton1" finished-at="2024-03-02T23:16:09 IST" duration-ms="15825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitButton1 -->
+      </class> <!-- TestCases.TC_04_CorporateWellness -->
+      <class name="TestCases.TC_01_homePage">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC_01_homePage@ae13544]" started-at="2024-03-02T23:13:38 IST" name="setUp" finished-at="2024-03-02T23:13:56 IST" duration-ms="17735" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Search_For_Doctor()[pri:1, instance:TestCases.TC_01_homePage@ae13544]" started-at="2024-03-02T23:13:56 IST" name="Search_For_Doctor" finished-at="2024-03-02T23:14:01 IST" duration-ms="4788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search_For_Doctor -->
+        <test-method signature="Select_Location()[pri:2, instance:TestCases.TC_01_homePage@ae13544]" started-at="2024-03-02T23:14:02 IST" name="Select_Location" finished-at="2024-03-02T23:14:03 IST" duration-ms="1058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Select_Location -->
+        <test-method signature="Select_Area()[pri:3, instance:TestCases.TC_01_homePage@ae13544]" started-at="2024-03-02T23:14:03 IST" name="Select_Area" finished-at="2024-03-02T23:14:04 IST" duration-ms="419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Select_Area -->
+        <test-method signature="Select_doctor()[pri:4, instance:TestCases.TC_01_homePage@ae13544]" started-at="2024-03-02T23:14:04 IST" name="Select_doctor" finished-at="2024-03-02T23:14:16 IST" duration-ms="11874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Select_doctor -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC_01_homePage@ae13544]" started-at="2024-03-02T23:16:09 IST" name="tearDown" finished-at="2024-03-02T23:16:11 IST" duration-ms="1812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC_01_homePage -->
+      <class name="TestCases.TC_03_surgeryPage">
+        <test-method signature="Click_On_surgery()[pri:1, instance:TestCases.TC_03_surgeryPage@c0c2f8d]" started-at="2024-03-02T23:15:18 IST" name="Click_On_surgery" finished-at="2024-03-02T23:15:24 IST" duration-ms="6081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_On_surgery -->
+        <test-method signature="pageScroll()[pri:2, instance:TestCases.TC_03_surgeryPage@c0c2f8d]" started-at="2024-03-02T23:15:25 IST" name="pageScroll" finished-at="2024-03-02T23:15:25 IST" duration-ms="587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageScroll -->
+        <test-method signature="Get_surgery_list()[pri:3, instance:TestCases.TC_03_surgeryPage@c0c2f8d]" started-at="2024-03-02T23:15:26 IST" name="Get_surgery_list" finished-at="2024-03-02T23:15:32 IST" duration-ms="6308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_surgery_list -->
+      </class> <!-- TestCases.TC_03_surgeryPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

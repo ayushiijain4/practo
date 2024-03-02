@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\2303920\eclipse-workspace\HackathonProject\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">27 methods, 1 failed,   26 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TC_04_CorporateWellness" class="method navigator-link" hash-for-method="SubmitButton1">SubmitButton1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TC_03_surgeryPage" class="method navigator-link" hash-for-method="Click_On_surgery">Click_On_surgery</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TC_03_surgeryPage" class="method navigator-link" hash-for-method="Get_surgery_list">Get_surgery_list</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TC_01_homePage" class="method navigator-link" hash-for-method="Search_For_Doctor">Search_For_Doctor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TC_01_homePage" class="method navigator-link" hash-for-method="Select_Area">Select_Area</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TC_01_homePage" class="method navigator-link" hash-for-method="Select_Location">Select_Location</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TC_01_homePage" class="method navigator-link" hash-for-method="Select_doctor">Select_doctor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TC_04_CorporateWellness" class="method navigator-link" hash-for-method="SubmitButton">SubmitButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TC_04_CorporateWellness" class="method navigator-link" hash-for-method="clear">clear</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TC_02_Doctor_Detail" class="method navigator-link" hash-for-method="click">click</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TC_02_Doctor_Detail" class="method navigator-link" hash-for-method="clickSort">clickSort</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TC_04_CorporateWellness" class="method navigator-link" hash-for-method="corporateLink">corporateLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TC_04_CorporateWellness" class="method navigator-link" hash-for-method="detailsInvalid">detailsInvalid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TC_04_CorporateWellness" class="method navigator-link" hash-for-method="detailsValid">detailsValid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TC_02_Doctor_Detail" class="method navigator-link" hash-for-method="getClinicName">getClinicName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TC_02_Doctor_Detail" class="method navigator-link" hash-for-method="getConsultationFee">getConsultationFee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TC_02_Doctor_Detail" class="method navigator-link" hash-for-method="getDoctorExperience">getDoctorExperience</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TC_02_Doctor_Detail" class="method navigator-link" hash-for-method="getDoctorName">getDoctorName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TC_02_Doctor_Detail" class="method navigator-link" hash-for-method="getPracticeLocality">getPracticeLocality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TC_04_CorporateWellness" class="method navigator-link" hash-for-method="organization_size_and_Interest">organization_size_and_Interest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TC_03_surgeryPage" class="method navigator-link" hash-for-method="pageScroll">pageScroll</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TC_02_Doctor_Detail" class="method navigator-link" hash-for-method="scrollDown">scrollDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TC_02_Doctor_Detail" class="method navigator-link" hash-for-method="selectExperience">selectExperience</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TC_02_Doctor_Detail" class="method navigator-link" hash-for-method="selectFilter">selectFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TC_02_Doctor_Detail" class="method navigator-link" hash-for-method="selectRelevance">selectRelevance</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TC_02_Doctor_Detail" class="method navigator-link" hash-for-method="select_patientStory">select_patientStory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TC_04_CorporateWellness" class="method navigator-link" hash-for-method="sizeOfOrganizationAndInterest">sizeOfOrganizationAndInterest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestCases.TC_04_CorporateWellness</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SubmitButton1">
+                  </a> <!-- SubmitButton1 -->
+                  <span class="method-name">SubmitButton1</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;u-text--bold text-alpha&apos;]&quot;}
+  (Session info: chrome=118.0.5993.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8deace0b699fadf85bd00a8216b49e89, findElement {using=xpath, value=//div[@class=&apos;u-text--bold text-alpha&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.71, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54433}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54433/devtoo..., se:cdpVersion: 118.0.5993.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8deace0b699fadf85bd00a8216b49e89
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy27.getText(Unknown Source)
+	at pageObjects.CorporateWellness.Click_Button(CorporateWellness.java:85)
+	at TestCases.TC_04_CorporateWellness.SubmitButton1(TC_04_CorporateWellness.java:60)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.TC_02_Doctor_Detail</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="click">
+                  </a> <!-- click -->
+                  <span class="method-name">click</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickSort">
+                  </a> <!-- clickSort -->
+                  <span class="method-name">clickSort</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getClinicName">
+                  </a> <!-- getClinicName -->
+                  <span class="method-name">getClinicName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getConsultationFee">
+                  </a> <!-- getConsultationFee -->
+                  <span class="method-name">getConsultationFee</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getDoctorExperience">
+                  </a> <!-- getDoctorExperience -->
+                  <span class="method-name">getDoctorExperience</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getDoctorName">
+                  </a> <!-- getDoctorName -->
+                  <span class="method-name">getDoctorName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getPracticeLocality">
+                  </a> <!-- getPracticeLocality -->
+                  <span class="method-name">getPracticeLocality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="scrollDown">
+                  </a> <!-- scrollDown -->
+                  <span class="method-name">scrollDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectExperience">
+                  </a> <!-- selectExperience -->
+                  <span class="method-name">selectExperience</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectFilter">
+                  </a> <!-- selectFilter -->
+                  <span class="method-name">selectFilter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectRelevance">
+                  </a> <!-- selectRelevance -->
+                  <span class="method-name">selectRelevance</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="select_patientStory">
+                  </a> <!-- select_patientStory -->
+                  <span class="method-name">select_patientStory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.TC_03_surgeryPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Click_On_surgery">
+                  </a> <!-- Click_On_surgery -->
+                  <span class="method-name">Click_On_surgery</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Get_surgery_list">
+                  </a> <!-- Get_surgery_list -->
+                  <span class="method-name">Get_surgery_list</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pageScroll">
+                  </a> <!-- pageScroll -->
+                  <span class="method-name">pageScroll</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.TC_01_homePage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Search_For_Doctor">
+                  </a> <!-- Search_For_Doctor -->
+                  <span class="method-name">Search_For_Doctor</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Select_Area">
+                  </a> <!-- Select_Area -->
+                  <span class="method-name">Select_Area</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Select_Location">
+                  </a> <!-- Select_Location -->
+                  <span class="method-name">Select_Location</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Select_doctor">
+                  </a> <!-- Select_doctor -->
+                  <span class="method-name">Select_doctor</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.TC_04_CorporateWellness</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SubmitButton">
+                  </a> <!-- SubmitButton -->
+                  <span class="method-name">SubmitButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clear">
+                  </a> <!-- clear -->
+                  <span class="method-name">clear</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="corporateLink">
+                  </a> <!-- corporateLink -->
+                  <span class="method-name">corporateLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="detailsInvalid">
+                  </a> <!-- detailsInvalid -->
+                  <span class="method-name">detailsInvalid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="detailsValid">
+                  </a> <!-- detailsValid -->
+                  <span class="method-name">detailsValid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="organization_size_and_Interest">
+                  </a> <!-- organization_size_and_Interest -->
+                  <span class="method-name">organization_size_and_Interest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sizeOfOrganizationAndInterest">
+                  </a> <!-- sizeOfOrganizationAndInterest -->
+                  <span class="method-name">sizeOfOrganizationAndInterest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\2303920\eclipse-workspace\HackathonProject\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;ExcelUtils.ExtentReportManager&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;os&quot; value=&quot;windows&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCases.TC_01_homePage&quot;/&gt;
+      &lt;class name=&quot;TestCases.TC_02_Doctor_Detail&quot;/&gt;
+      &lt;class name=&quot;TestCases.TC_03_surgeryPage&quot;/&gt;
+      &lt;class name=&quot;TestCases.TC_04_CorporateWellness&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(27);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'SubmitButton1')
+data.setCell(0, 2, 'TestCases.TC_04_CorporateWellness')
+data.setCell(0, 3, 45863);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'selectRelevance')
+data.setCell(1, 2, 'TestCases.TC_02_Doctor_Detail')
+data.setCell(1, 3, 13311);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Select_doctor')
+data.setCell(2, 2, 'TestCases.TC_01_homePage')
+data.setCell(2, 3, 12466);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'scrollDown')
+data.setCell(3, 2, 'TestCases.TC_02_Doctor_Detail')
+data.setCell(3, 3, 11846);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'selectFilter')
+data.setCell(4, 2, 'TestCases.TC_02_Doctor_Detail')
+data.setCell(4, 3, 10991);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Get_surgery_list')
+data.setCell(5, 2, 'TestCases.TC_03_surgeryPage')
+data.setCell(5, 3, 8157);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'corporateLink')
+data.setCell(6, 2, 'TestCases.TC_04_CorporateWellness')
+data.setCell(6, 3, 7181);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Click_On_surgery')
+data.setCell(7, 2, 'TestCases.TC_03_surgeryPage')
+data.setCell(7, 3, 7132);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'selectExperience')
+data.setCell(8, 2, 'TestCases.TC_02_Doctor_Detail')
+data.setCell(8, 3, 6487);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'select_patientStory')
+data.setCell(9, 2, 'TestCases.TC_02_Doctor_Detail')
+data.setCell(9, 3, 5516);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Search_For_Doctor')
+data.setCell(10, 2, 'TestCases.TC_01_homePage')
+data.setCell(10, 3, 5504);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'getDoctorName')
+data.setCell(11, 2, 'TestCases.TC_02_Doctor_Detail')
+data.setCell(11, 3, 4920);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'clear')
+data.setCell(12, 2, 'TestCases.TC_04_CorporateWellness')
+data.setCell(12, 3, 2548);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'detailsInvalid')
+data.setCell(13, 2, 'TestCases.TC_04_CorporateWellness')
+data.setCell(13, 3, 1776);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'sizeOfOrganizationAndInterest')
+data.setCell(14, 2, 'TestCases.TC_04_CorporateWellness')
+data.setCell(14, 3, 1681);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'detailsValid')
+data.setCell(15, 2, 'TestCases.TC_04_CorporateWellness')
+data.setCell(15, 3, 1334);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'getDoctorExperience')
+data.setCell(16, 2, 'TestCases.TC_02_Doctor_Detail')
+data.setCell(16, 3, 1307);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'getPracticeLocality')
+data.setCell(17, 2, 'TestCases.TC_02_Doctor_Detail')
+data.setCell(17, 3, 1114);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'getClinicName')
+data.setCell(18, 2, 'TestCases.TC_02_Doctor_Detail')
+data.setCell(18, 3, 1091);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'Select_Location')
+data.setCell(19, 2, 'TestCases.TC_01_homePage')
+data.setCell(19, 3, 1042);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'getConsultationFee')
+data.setCell(20, 2, 'TestCases.TC_02_Doctor_Detail')
+data.setCell(20, 3, 1027);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'organization_size_and_Interest')
+data.setCell(21, 2, 'TestCases.TC_04_CorporateWellness')
+data.setCell(21, 3, 875);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'SubmitButton')
+data.setCell(22, 2, 'TestCases.TC_04_CorporateWellness')
+data.setCell(22, 3, 845);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'pageScroll')
+data.setCell(23, 2, 'TestCases.TC_03_surgeryPage')
+data.setCell(23, 3, 588);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'Select_Area')
+data.setCell(24, 2, 'TestCases.TC_01_homePage')
+data.setCell(24, 3, 441);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'clickSort')
+data.setCell(25, 2, 'TestCases.TC_02_Doctor_Detail')
+data.setCell(25, 3, 211);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'click')
+data.setCell(26, 2, 'TestCases.TC_02_Doctor_Detail')
+data.setCell(26, 3, 152);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">6 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">TestCases.TC_02_Doctor_Detail</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">TestCases.TC_03_surgeryPage</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">TestCases.TC_04_CorporateWellness</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.TC_01_homePage</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(windows, chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">Search_For_Doctor</span>
+                <span class="method-start">19320 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Select_Location</span>
+                <span class="method-start">25596 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Select_Area</span>
+                <span class="method-start">27267 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Select_doctor</span>
+                <span class="method-start">28201 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.TC_02_Doctor_Detail</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">click</span>
+                <span class="method-start">41064 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">select_patientStory</span>
+                <span class="method-start">41774 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectExperience</span>
+                <span class="method-start">47883 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectFilter</span>
+                <span class="method-start">54847 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickSort</span>
+                <span class="method-start">66345 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectRelevance</span>
+                <span class="method-start">67112 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">scrollDown</span>
+                <span class="method-start">81185 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getDoctorName</span>
+                <span class="method-start">93575 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getDoctorExperience</span>
+                <span class="method-start">98998 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getClinicName</span>
+                <span class="method-start">100841 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getPracticeLocality</span>
+                <span class="method-start">102344 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getConsultationFee</span>
+                <span class="method-start">103928 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.TC_03_surgeryPage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Click_On_surgery</span>
+                <span class="method-start">105433 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">pageScroll</span>
+                <span class="method-start">113516 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Get_surgery_list</span>
+                <span class="method-start">114644 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.TC_04_CorporateWellness</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">corporateLink</span>
+                <span class="method-start">123373 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">detailsInvalid</span>
+                <span class="method-start">131903 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sizeOfOrganizationAndInterest</span>
+                <span class="method-start">134327 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SubmitButton</span>
+                <span class="method-start">136801 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clear</span>
+                <span class="method-start">138427 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">detailsValid</span>
+                <span class="method-start">141626 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">organization_size_and_Interest</span>
+                <span class="method-start">143602 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SubmitButton1</span>
+                <span class="method-start">145110 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.TC_01_homePage</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">191778 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
